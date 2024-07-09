@@ -1,0 +1,38 @@
+{
+
+  "id": "ffa57efa-b27c-4b4d-8ae4-8ffd6ba85d25",
+ "name": "30_Categorizacion_de_Compras",
+ "publisher": "PQN - MZY",
+ "version": "1.0.0.0",
+
+ "brief": "DeptCompras",
+ "description": "Campo de categoría en Facturas, Albaranes y Pedidos de Compra",
+ "privacyStatement": "",
+ "EULA": "",
+ "help": "",
+ "url": "",
+ "logo": "",
+ "dependencies": [
+   {
+     "id": "15fc8b65-8fb9-4797-9cc8-99e1eb8dbb29",
+     "name": "Proquinorte-Funcionalidad",
+     "publisher": "Mitra Global Services, S.L.",
+     "version": "1.0.2.92"
+   }
+],
+ "screenshots": [],
+ "platform": "1.0.0.0",
+ "application": "19.0.0.0",
+ "idRanges": [
+   {
+     "from": 50384,
+     "to": 50422
+   } 
+ ],
+ "resourceExposurePolicy": {
+   "allowDebugging": true,
+   "allowDownloadingSource": false,
+   "includeSourceInSymbolFile": false
+ },
+ "runtime": "8.0"
+}

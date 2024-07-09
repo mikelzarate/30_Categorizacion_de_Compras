@@ -1,0 +1,37 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "PQN DEV Sandbox",
+            "request": "launch",
+            "type": "al",
+            "environmentType": "Sandbox",
+            "environmentName": "DEV",
+            "startupObjectId": 142,
+            "startupObjectType": "Page",
+            "breakOnError": true,
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,
+            "server": "https://businesscentral.dynamics.com/34e0a967-8b05-4b22-a72b-9eb9f1d02563/",
+            "authentication": "AAD",
+            "schemaUpdateMode": "Synchronize"
+        } ,
+        {
+            "name": "PQN PRE Sandbox",
+            "request": "launch",
+            "type": "al",
+            "environmentType": "Sandbox",
+            "environmentName": "PRE",
+            "startupObjectId": 9304,
+            "startupObjectType": "Page",
+            "breakOnError": true,
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,
+            "server": "https://businesscentral.dynamics.com/34e0a967-8b05-4b22-a72b-9eb9f1d02563/",
+            "authentication": "AAD",
+            "schemaUpdateMode": "Synchronize"
+        } 
+    ]
+}
